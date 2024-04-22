@@ -1,5 +1,9 @@
-(function () {
+(function (message) {
   const superHero = "superman";
-})()(function () {
+  console.log(message, superHero);
+})("hello");
+
+(function (message) {
   const superHero = "batman";
-})();
+  console.log(message, superHero);
+})("hey");
