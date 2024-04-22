@@ -1,7 +1,9 @@
-const superHero = require("./super-hero"); // return an object
-console.log(superHero.getName());
-superHero.setName("superman");
-console.log(superHero.getName());
+const SuperHero = require("./super-hero");
 
-const newSuperHero = require("./super-hero");
-console.log(newSuperHero.getName());
+const batman = new SuperHero("batman");
+console.log(batman.getName());
+batman.setName("bruce way");
+console.log(batman.getName());
+
+const superman = new SuperHero("superman");
+console.log(superman.getName());
