@@ -8,4 +8,9 @@ var a = 100;
   console.log( a + b);
 }
 
-module.exports = {sum, a}; // exports with s
+console.log(module.exports) // empty object
+
+module.exports.a = a;
+module.exports.sum = sum
+
+// module.exports = {sum, a}; // exports with s
