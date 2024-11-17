@@ -4,8 +4,8 @@ console.log("code from sum");
 
 var a = 100;
 
-export function sum(a, b) {
+ function sum(a, b) {
   console.log( a + b);
 }
 
-// module.exports = {sum, a}; // exports with s
+module.exports = {sum, a}; // exports with s
