@@ -10,7 +10,7 @@ var a = 100;
 
 console.log(module.exports) // empty object
 
-module.exports.a = a;
-module.exports.sum = sum
+// module.exports.a = a;
+// module.exports.sum = sum
 
-// module.exports = {sum, a}; // exports with s
+module.exports = {sum, a}; // exports with s
