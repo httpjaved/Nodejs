@@ -1,6 +1,7 @@
-require("./xyz.js")
+// require("./xyz.js")
 
-const {sum, a} = require("./sum.js");
+import {sum} from "./sum.js"
+// const {sum, a} = require("./sum.js");
 
 
 
@@ -9,4 +10,4 @@ const {sum, a} = require("./sum.js");
 // console.log(globalThis)
 // console.log(global === globalThis);
 sum(10,20)
-console.log(a)
+// console.log(a)
